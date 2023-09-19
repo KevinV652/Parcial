@@ -1,0 +1,20 @@
+@import './form.css';
+:root{
+  --baseFontFamily: 'Roboto', sans-serif;
+  --text1regular: 400 1rem/normal var(--baseFontFamily); 
+  --heading1: 700 1.25rem/normal var(--baseFontFamily); 
+  --text2regular: 300 0.75rem/normal var(--baseFontFamily); 
+  --black: #030102; 
+  --grey: #9ea8bd; 
+  --grey2: #e2e6ee; 
+  --primary: #ca097a; 
+  --white: #ffffff;
+  --inline-size: 18.75rem;
+  --max-inline-size: 22.5rem;
+}
+body{
+  color: var(--black);
+  background-color: #08003B;
+  font: var(--heading1);
+  margin: 0;
+}
