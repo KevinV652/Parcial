@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Seccion 5</h1>
-    <form action="index.php" method="POST">
+    <form action="gest_1.php" method="POST">
         <label for="numero">Ingrese un número:</label>
         <input type="text" id="numero" name="numero">
         <button type="submit" name="analizar">Analizar</button>
@@ -22,5 +22,6 @@
     <input type="hidden" value="Volver" />
 </form>
 </body>
+
 
 </html>
